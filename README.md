@@ -1,7 +1,7 @@
 # JavaScript Developer Training
 Repository created for code challenges performed in Training. With a 38-hour track, focused on learning from the fundamentals of this programming language to its essential role on the Web today. Mastering the concepts needed to use JavaScript on the Web, with an emphasis on consuming APIs, conventions and best practices.
 
-🔗 [Clique aqui pra acessar o certificado](https://www.dio.me/certificate/D75CE7DD/share)
+🔗 [Click here to access the certificate](https://www.dio.me/certificate/D75CE7DD/share)
 
 ![image](https://hermes.digitalinnovation.one/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png)
 
