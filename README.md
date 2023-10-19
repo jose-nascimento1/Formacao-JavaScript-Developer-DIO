@@ -3,7 +3,7 @@ Repositório criado para os desafios de códigos realizados na Formação. Com u
 
 🔗 [Clique aqui para acessar o certificado](https://www.dio.me/certificate/D75CE7DD/share)
 
-![image](https://cdn270.picsart.com/f8e51855-f3ce-4b89-ac61-89f7f3f7a227/411863841029201.png)
+![image](https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png)
 
 ## Autor
 
