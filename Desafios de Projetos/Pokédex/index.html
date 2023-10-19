@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex José Nascimento</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/search.css">
+    <link rel="stylesheet" href="/assets/css/searched-pokemon.css">
+    <link rel="stylesheet" href="/assets/css/filter.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokemon-description.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="main">
+        <header>
+            <nav>
+                <h1 class="page-title"> Hello, <br> welcome to <br> Online Pokédex!</h1>
+
+                <div class="search-container">
+                    <form class="search-form" action="" onsubmit="searchPokemon(event)">
+                        <div>
+                                <input type="text" class="pokemon-search" placeholder="Search for Pokémon" name="pokemonsearch" id="pokemonSearch" onchange="setTimeSearch()"/>
+                            <button type="submit" class="search-button"><i class="uil uil-search"></i></button>
+                        </div>
+                        <button id="filter_button" type="button" class="search-filter" onclick=""><i class="uil uil-filter"></i></button>
+                    </form>
+                </div>
+            </nav>
+            
+            <div id="filter_types" class="hide filter-buttons">
+                <button class="type-button" id="normal">Normal</button>
+                <button class="type-button" id="fighting">Fighting</button>
+                <button class="type-button" id="flying">Flying</button>
+                <button class="type-button" id="poison">Poison</button>
+                <button class="type-button" id="ground">Ground</button>
+                <button class="type-button" id="rock">Rock</button>
+                <button class="type-button" id="bug">Bug</button>
+                <button class="type-button" id="ghost">Ghost</button>
+                <button class="type-button" id="steel">Steel</button>
+                <button class="type-button" id="fire">Fire</button>
+                <button class="type-button" id="water">Water</button>
+                <button class="type-button" id="grass">Grass</button>
+                <button class="type-button" id="electric">Electric</button>
+                <button class="type-button" id="psychic">Psychic</button>
+                <button class="type-button" id="ice">Ice</button>
+                <button class="type-button" id="dragon">Dragon</button>
+                <button class="type-button" id="dark">Dark</button>
+                <button class="type-button" id="fairy">Fairy</button>
+            </div>
+        </header>
+    </div>
+    <main class="content" id="main-content">
+
+        <div id="pokedexContainer">
+            <ol class="pokemons" id="pokemonList">
+            </ol>
+        </div>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                <label>Load more Pokémon</label>
+            </button>
+        </div>
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="/assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
+    </main>
+
+    <section id="pokemonPopUp" class="pokemonDetails"></section>
+
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/bottom-button.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/filter-types.js"></script>
+    <script src="/assets/js/disable-scroll.js"></script>
+    <script src="/assets/js/pokemon-description.js"></script>
+    <script src="/assets/js/search-pokemon.js"></script>
+</body>
+</html>
