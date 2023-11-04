@@ -1,5 +1,5 @@
 # Formação JavaScript Developer
-Repositório criado para os desafios de códigos realizados na Formação. Com uma trilha de 38 horas, focadas na aprendizagem desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente. Dominando os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas.
+Repositório criado para os desafios de códigos e projetos realizados na Formação. Com uma trilha de 38 horas, focadas na aprendizagem desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente. Dominando os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas.
 
 🔗 [Clique aqui para acessar o certificado](https://www.dio.me/certificate/D75CE7DD/share)
 
